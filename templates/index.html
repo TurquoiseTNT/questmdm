@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quest MDM</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<h1>Connected Devices</h1>
+<ul>
+  {% for device in devices %}
+    <li>{{ device }}</li>
+  {% endfor %}
+</ul>
+</body>
+</html>
